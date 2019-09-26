@@ -3,9 +3,9 @@ declare(strict_types=1);
 
 namespace Api\Infrastructure\Persistence\User;
 
-use App\Domain\User\User;
-use App\Domain\User\UserNotFoundException;
-use App\Domain\User\UserRepository;
+use Api\Domain\User\User;
+use Api\Domain\User\UserNotFoundException;
+use Api\Domain\User\UserRepository;
 
 class InMemoryUserRepository implements UserRepository
 {

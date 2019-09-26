@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace Api\Application\Actions\User;
 
-use App\Application\Actions\Action;
-use App\Domain\User\UserRepository;
+use Api\Application\Actions\Action;
+use Api\Domain\User\UserRepository;
 use Psr\Log\LoggerInterface;
 
 abstract class UserAction extends Action
